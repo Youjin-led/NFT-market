@@ -50,6 +50,35 @@ body{
     max-width: 1050px;
     border: 1px solid red;
 }
+.section-padding{
+    padding-block: 80px;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heading-h3{
+   
+   font-size: var(--font-h3);
+   font-weight: var(--font-weight-semibold);
+   line-height: var(--line-height-sm);
+
+}
+
+.heading-h5{
+    font-size: var(--font-h5);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-lg);
+}
+
+.font-number{
+    font-family: "Space Mono", monospace;
+}
+
+
 
 .header{
     display: flex;
@@ -159,6 +188,86 @@ font-size: var(--font-h4);
     line-height: var(--line-height-xxl);
     font-size: 23.99px;
 }
+
+.headline__subhead{
+    color: var(--color-light);
+    font-size: var(--font-h5);
+    line-height: var(--line-height-xxl);
+}
+.trending-collection__collection{
+    display: flex;
+}
+
+.trending-collection__primory-photo{
+width: 330px;
+height: 330px;
+margin-bottom: 15px;
+
+}
+
+
+.photo_radius{
+   border-radius: 20px; 
+}
+
+.trending-collection__additional-photos{
+    display: flex;
+    gap: 15px;
+}
+
+.trending-collection__additional-photo{
+width: 100px;
+height: 100px;
+}
+
+.trending-collection__number{
+    color: var(--color-light);
+    background-color: var(--color-filled);
+    font-size: var(--font-h5);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xxl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-collection__info{
+   margin-top: 15px; 
+}
+
+.heading-h3_color-light{
+    color: var(--color-light);
+}
+
+.heading-h5_color-light{
+    color: var(--color-light);
+}
+
+.artist-card__photo{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+.artist-card__name{
+    font-size: var(--font-base);
+    line-height: var(--line-height-lg);
+    color: var(--color-light);
+   
+}
+
+.artist-card{
+   display: flex; 
+   gap: 12px;
+   align-items: center;
+}
+
+.trending-collection__collection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
 
 
 

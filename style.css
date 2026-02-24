@@ -243,6 +243,10 @@ height: 100px;
     color: var(--color-light);
 }
 
+.heading-h2_color-light{
+    color: var(--color-light);
+}
+
 .artist-card__photo{
     border-radius: 50%;
     width: 24px;
@@ -463,6 +467,102 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.button_filled-light{
+    background-color: var(--color-light);
+}
+
+.button__text_color-dark{
+    color: var(--color-dark);
+}
+
+.hightlight{
+    background:linear-gradient(to bottom, #A259FF00, #A259FF), url(img/a6f43f9350c73503d13e1fe1a0e3277804ef1192.png);
+    padding-top: 360px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    
+
+}
+
+.hightlight__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hightlight__artist{
+   align-self: flex-start;
+}
+
+.artist-card_backgraund-dark{
+    background-color: var(--color-secondary);
+}
+
+
+.hightlight__artist-card{
+    padding: 11px 20px;
+    align-self: flex-start;
+}
+
+.heading-h2{
+    font-size: var(--font-h2);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-xs);
+}
+
+.hightlight__button{
+    align-self: flex-start;
+}
+
+.hightlight__info-artist{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.hightlight__auction-timer{
+    background-color: #3b3b3b7e;
+    padding: 30px;
+    color: var(--color-light);
+    backdrop-filter: blur(10px);
+    
+}
+
+.hightlight__timer{
+   margin-top: 10px; 
+}
+
+.hightlight__label,
+.hightlight__number-label{
+    font-size: var(--font-caption);
+    line-height: var(--line-height-xs);
+}
+
+.hightlight__number{
+    font-size:var(--font-h3);
+    line-height: var(--line-height-sm);
+    font-weight: var(--font-weight-bold);
+}
+
+.hightlight__divider{
+    font-size: var(--font-h4);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-lg);
+}
+.hightlight__timer{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.hightlight__time{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
